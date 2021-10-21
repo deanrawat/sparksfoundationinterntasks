@@ -1,0 +1,150 @@
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-weight: 100;
+  text-align: center;
+}
+.container-fluid {
+  padding: 7% 14%;
+}
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+  line-height:4;
+}
+h3
+{
+    font-family: "Montserrat", sans-serif;
+  font-weight:100;
+}
+
+p {
+  color: #8f8f8f;
+  font-weight: 400;
+}
+em {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+table
+{
+  position:relative;
+
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  margin-left:0px; 
+}
+.section-heading {
+  line-height: 1.5;
+}
+
+/* Color Sections */
+.white-section {
+  background-color: #fff;
+  tect-decoration:none;
+}
+.colored-section {
+  background-color: #57CC99;
+  color: #fff;
+
+}
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+/* Title Section */
+#title {
+  font-weight: "Montserrat";
+  text-align: left;
+}
+#title .container-fluid {
+  padding: 3% 15% 1%;
+}
+.download-button {
+  color: #fff;
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+
+
+.amount
+{
+  padding-left: 10px;
+
+}
+
+/* Footer section  */
+#footer {
+  margin-top: 50px;
+  padding: 2% 14%;
+      background-color:#01937C;
+}
+.f-button {
+  margin: 5% 1.5%;
+}
+  #title {
+    text-align: center;
+  }
+  .navbar {
+    padding-bottom: 3%;
+  }
+  #footer {
+    padding: 5% 14%;
+
+  }
+  .f-button {
+    margin: 5% 5%;
+  }
+  .symbols:hover
+  {
+    text-decoration: none;
+    color:white;
+    background-color: black;
+  }
+
+.f-button
+{
+  color:black;
+}

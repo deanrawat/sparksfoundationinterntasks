@@ -1,0 +1,224 @@
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-weight: 100;
+  text-align: center;
+}
+body::-webkit-scrollbar {
+  display: none; 
+}
+.container-fluid {
+  padding: 7% 14%;
+}
+
+h1{
+  font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 20px 0 0 0;
+  margin-bottom: 1px;
+}
+h2,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+  line-height:4;
+}
+h3
+{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 2.0em;
+  color: #fff;
+}
+
+p {
+  color: #ffffff;
+  font-weight: 400;
+}
+em {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+table
+{
+  position:relative;
+
+}
+
+/* Headings */
+.big-heading {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  margin-left:0px; 
+}
+.section-heading {
+  line-height: 1.5;
+}
+
+/* Color Sections */
+.white-section-1 {
+  background: repeating-linear-gradient(45deg, rgb(0, 140, 255), rgb(0, 255, 191) 30%, rgb(1, 220, 236) 50%);
+}
+.white-section-2 {
+  background-image: linear-gradient(to right top, #051937, #49265a, #932762, #d0394a, #eb7012);
+}
+.white-section-3 {
+  background : repeating-linear-gradient(45deg, #01345B, #EE7879 30%, rgb(246, 144, 141) 50%);
+}
+.colored-section {
+  background : linear-gradient(to right, #295afb 0%, #00eef6 100%);
+  color: #fff;
+
+}
+.header{
+  background-image: linear-gradient(to right top, #0bf8ed, #00e7fe, #00d5ff, #00c0ff, #52a9ff, #629dfa, #748ff3, #8581e9, #767eea, #647bec, #4c78ed, #2875ee);
+}
+.cshow{
+  background-image: linear-gradient(to right top, #0bf8ed, #00e7fe, #00d5ff, #00c0ff, #52a9ff, #629dfa, #748ff3, #8581e9, #767eea, #647bec, #4c78ed, #2875ee);
+}
+.btn.btn-info{
+  background-color: rgb(113, 167, 230);
+}
+table, th, td {
+  border: 1px solid black;
+}
+th {
+  text-align: center;
+}
+#transp{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  border-left: 3px solid #fff;
+  background-color: rgba(189,189,189,0.1);
+  border-radius: 5px;
+  padding: 10px 5px 14px 0px;
+}
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+tr:hover {background-color: #D6EEEE;}
+.table-dark {
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-dark .navbar-brand:hover {
+  background: rgb(45, 46, 47);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar-brand {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+/* Title Section */
+#title {
+  font-weight: "Montserrat";
+  text-align: left;
+}
+#title .container-fluid {
+  padding: 3% 5% 1%;
+}
+.download-button {
+  color: #fff;
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+
+
+.amount
+{
+  padding-left: 10px;
+
+}
+.btnpmr{
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+}
+
+/* Footer section  */
+#footer {
+  margin-top: 0px;
+  padding: 2% 14%;
+  background-image: linear-gradient(to right bottom, #ffcbcb, #facfbc, #ebd5b4, #d8dbb6, #c3e0c2, #badebd, #b1dcb8, #a7dab4, #b3d091, #c9c172, #e2ad5e, #fb955f);
+}
+#footer p{
+  color: black;
+}
+.f-button {
+  margin: 5% 1.5%;
+}
+  #title {
+    text-align: center;
+  }
+  .navbar {
+    padding-bottom: 3%;
+  }
+  #footer {
+    padding: 0.5% 14%;
+
+  }
+  .f-button {
+    margin: 5% 1%;
+  }
+  .symbols:hover
+  {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    background-color: white;
+  }
+
+.f-button
+{
+  color:rgb(0, 0, 0);
+}
